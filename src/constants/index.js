@@ -16,7 +16,7 @@ import {
   express,
   aws,
   mui,
-  
+  // python,
   gsap,
   framer,
   figma,
@@ -35,8 +35,8 @@ import {
 } from '../assets'
 
 
-// Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+// Import eaxum separately
+import eaxum from "../assets/company/eaxum.png";
 
 
 export const navLinks = [
@@ -71,7 +71,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "Mobile App Developer",
     icon: creator,
   },
 ];
@@ -93,35 +93,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
 
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
   },
   {
     name: "Node JS",
@@ -131,6 +106,10 @@ const technologies = [
     name: "Express Js",
     icon: express,
   },
+  // {
+  //   name: "Python",
+  //   icon: python,
+  // },
   {
     name: "AWS",
     icon: aws,
@@ -155,15 +134,31 @@ const technologies = [
 const experiences = [
   {
     title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    company_name: "Freelance",
+    icon: "free",
     iconBg: "#383E56",
     date: "Jan 2023 - present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained scalable backend services and APIs using Go and Python, optimizing system performance and reliability.",
+     "Collaborated with cross-functional teams to analyze requirements and deliver high-quality software solutions on time and within budget.",
+     "Created unit and integration tests to ensure code quality and maintainability, improving test coverage by 40%.",
+     "Worked on optimizing database queries and schema design for improved performance.",
+     "Collaborated with senior developers to resolve software defects and implement new features.",
+     "Developed CLI tools and scripts in Python to automate administrative tasks and data processing workflows.",
+     "Automated deployment pipelines using Docker tool to streamline application delivery.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Eaxum",
+    icon: eaxum,
+    iconBg: "#383E56",
+    date: "May 2023 - June 2025",
+    points: [
+    "Developed and maintained scalable backend services and APIs using Go and Python, optimizing system performance and reliability.",
+     "Design addons Ui and architecture",
+     "Write automation scripts",
+     "Built Blender Addons using Python",
     ],
   },
 ];
