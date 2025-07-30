@@ -11,6 +11,7 @@ import {
   css,
   gearXpert,
   project2,
+  nokuex,
   project3,
   mysql,
   express,
@@ -34,9 +35,6 @@ import {
   thirdTestimonial,
 } from '../assets'
 
-
-// Import eaxum separately
-import eaxum from "../assets/company/eaxum.png";
 
 
 export const navLinks = [
@@ -133,35 +131,85 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Freelance",
-    icon: "free",
-    iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    title: "Junior Full Stack Developer",
+    company_name: "Contract / Freelance",
+    // icon: "fiverr",
+    iconBg: "#E6DEDD",
+    date: "April 2019 – 2020",
     points: [
-      "Developed and maintained scalable backend services and APIs using Go and Python, optimizing system performance and reliability.",
-     "Collaborated with cross-functional teams to analyze requirements and deliver high-quality software solutions on time and within budget.",
-     "Created unit and integration tests to ensure code quality and maintainability, improving test coverage by 40%.",
-     "Worked on optimizing database queries and schema design for improved performance.",
-     "Collaborated with senior developers to resolve software defects and implement new features.",
-     "Developed CLI tools and scripts in Python to automate administrative tasks and data processing workflows.",
-     "Automated deployment pipelines using Docker tool to streamline application delivery.",
+      "Collaborated with senior developers to build and maintain web applications using Python Flask and Vue.js.",
+      "Developed frontend components and integrated them with backend APIs, enhancing responsiveness and performance.",
+      "Implemented CRUD functionalities, user authentication, and role-based access control.",
+      "Wrote unit and integration tests using PyTest and Jest to ensure software stability.",
+      "Designed and optimized MySQL/PostgreSQL database schemas.",
+      "Participated in Agile sprints and code reviews.",
+      "Deployed applications to Heroku and Netlify."
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Eaxum",
-    icon: eaxum,
+    title: "Backend Developer",
+    company_name: "Haflami Gng Technologies",
+    icon: "backend",
     iconBg: "#383E56",
-    date: "May 2023 - June 2025",
+    date: "March 2021 – April 2023",
     points: [
-    "Developed and maintained scalable backend services and APIs using Go and Python, optimizing system performance and reliability.",
-     "Design addons Ui and architecture",
-     "Write automation scripts",
-     "Built Blender Addons using Python",
+      "Developed scalable backend APIs using Flask, Django, and Golang (Gin).",
+      "Designed RESTful and GraphQL endpoints serving mobile and web platforms.",
+      "Improved database performance and query speed by 50%.",
+      "Integrated services like Stripe, Paystack, Firebase, SendGrid, and Twilio.",
+      "Handled background processing with Celery and Redis.",
+      "Enhanced system reliability with structured logging and monitoring.",
+      "Implemented CI/CD pipelines and containerization with Docker and AWS EC2."
     ],
   },
+  {
+    title: "Frontend Developer",
+    company_name: "Freelance / Contract",
+    icon: "frontend",
+    iconBg: "#E6DEDD",
+    date: "May 2021 – August 2023",
+    points: [
+      "Built responsive, accessible interfaces using React.js, Vue.js, and Tailwind CSS.",
+      "Translated Figma designs into pixel-perfect components.",
+      "Managed state using Redux, Context API, and Vuex.",
+      "Improved performance using lazy loading, code splitting, and image compression.",
+      "Maintained reusable component libraries for cross-project development.",
+      "Enhanced user experience and reduced support tickets by 20%."
+    ],
+  },
+  {
+    title: "Senior Mobile Developer (React Native)",
+    company_name: "Freelance / Contract",
+    icon: "mobile",
+    iconBg: "#383E56",
+    date: "January 2022 – 2024",
+    points: [
+      "Built cross-platform mobile apps for Android and iOS using React Native.",
+      "Integrated REST APIs and Firebase for real-time capabilities.",
+      "Implemented Redux and Context API for scalable state management.",
+      "Built critical features including authentication, payments, and geolocation.",
+      "Published apps to Google Play and App Store using Expo and CodePush.",
+      "Wrote robust unit and end-to-end tests using Jest and Detox."
+    ],
+  },
+  {
+    title: "Senior Software / Full Stack Developer",
+    company_name: "Haflami Gng Technologies",
+    icon: "fullstack",
+    iconBg: "#E6DEDD",
+    date: "2023 – 2025",
+    points: [
+      "Developed and maintained full-stack apps using Flask, Django, and Golang.",
+      "Increased user engagement by 60% through optimized APIs and UI/UX improvements.",
+      "Built and deployed automation scripts and CLI tools in Python.",
+      "Created internal tools and Blender Add-ons for the animation pipeline.",
+      "Optimized SQL schemas and reduced load times through backend refactoring.",
+      "Improved CI/CD pipeline to reduce release times by 80%.",
+      "Contributed to a 25% revenue increase through performance improvements."
+    ],
+  }
 ];
+
 
 const testimonials = [
   {
@@ -192,9 +240,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Nokuex",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Nokuex is a crypto web-based platform that allows users to search, explore the crypto space.",
     tags: [
       {
         name: "react",
@@ -214,7 +262,7 @@ const projects = [
       },
  
     ],
-    image: project2,
+    image: nokuex,
     source_code_link: "https://github.com/",
   },
   {
