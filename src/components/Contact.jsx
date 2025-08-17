@@ -31,19 +31,36 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    const now = new Date();
+    const timestamp = now.toLocaleString(); // e.g., "8/17/2025, 2:45:30 PM"
+
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
+          name: form.name,
+          title:"Contact",
+          time:timestamp,
           to_name: "Fausan",
-          from_email: form.email,
-          to_email: "hassanfausan@gmail.com",
           message: form.message,
+          email: form.email,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
+      .then(() => {
+        
+        return emailjs.send(
+          import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_APP_EMAILJS_AUTORESPONSE_TEMPLATE_ID,
+          {
+            name: form.name,
+            email: form.email,
+          },
+          import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        );
+      })
       .then(
         () => {
           setLoading(false);

@@ -10,8 +10,10 @@ import {
   close,
   css,
   gearXpert,
+  aiquizedu,
   project2,
   nokuex,
+  youtube_d,
   project3,
   mysql,
   express,
@@ -33,6 +35,7 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  academia,
 } from '../assets'
 
 
@@ -57,7 +60,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Software Developer",
     icon: web,
   },
   {
@@ -214,24 +217,24 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
+      "I thought it was impossible to make a website as beautiful as our product, but Fausan proved me wrong.",
+    name: "Micromist",
     designation: "Ecommerce",
-    company: "QuickMart",
+    company: "AiQuizedu",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
+      "I've never met a web developer who truly cares about their clients' success like Fausan does.",
+    name: "Abdul Ramdy",
     designation: "Ecommerce Business",
     company: "justbuyz",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
+      "After Fausan optimized our website, our traffic increased by 50%. We can't thank him enough!",
+    name: "James Dev",
     designation: "CTO",
     company: "456 Enterprises",
     image: thirdTestimonial,
@@ -266,37 +269,76 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "GearXpert",
+    name: "Youtube Video Downloader",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "An Application to help you download any resolution of Youtube video for free to your prefered location ",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
-        color: "green-text-gradient",
+        name: "tkinter",
+        color: "white-text-gradient",
       },
       {
-        name: "Gsap",
-        color: "pink-text-gradient",
+        name: "sqlite",
+        color: "green-text-gradient",
       },
+ 
     ],
-    image: gearXpert,
+    image: youtube_d,
     source_code_link: "https://github.com/",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "AiQuizedu",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "AiQuizedu is your your personalized study companion for exam success",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "react-native",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "white-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "red-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "red-text-gradient",
+      },
+
+    ],
+    image: aiquizedu,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Acadelit",
+    description:
+      "Acadelit is a comprehensive school management system designed for students, teachers, and administrators  ",
+    tags: [
+      {
+        name: "vue",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docker",
         color: "white-text-gradient",
       },
       {
@@ -304,11 +346,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Golang",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postgresql",
         color: "green-text-gradient",
       },
     ],
-    image: project3,
+    image: academia,
     source_code_link: "https://github.com/",
   },
 ];
