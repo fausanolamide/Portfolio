@@ -21,12 +21,12 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Fausan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop modern user interfaces, web applications and mobile applications
+            I develop modern user interfaces, web applications and mobile applications.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       
 
